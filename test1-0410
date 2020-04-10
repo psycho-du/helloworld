@@ -1,0 +1,6 @@
+data data0;
+if x1 -x2=0 then x3=1;
+set rawdata1;
+run;
+proc sort data= data0;
+run;
